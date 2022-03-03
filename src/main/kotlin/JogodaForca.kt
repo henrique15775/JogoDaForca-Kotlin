@@ -1,10 +1,4 @@
-/*class Pessoa (
-   /* val nome: String,
-    val idade: Int,*/
-    val maiorIdade: Boolean
-        get() = return true
 
-    )*/
 
 class PalavraDica(
     val palavra: String,
@@ -37,15 +31,7 @@ fun VerificarLetraInPalavra(letra: Char, palavra: String): Boolean{
 }
 
 fun letrasDescobertas(palavra: String, letras_reveladas: List<String>): String{
-    /*var word_found = mutableListOf<String>()
-    for(word in palavra){
-        for(word_revealed in letras_reveladas){
-               if(word == word_revealed && !word_found.contains(word_revealed) && word != "/0" && word != "") {
-                       word_found.add(word)
-                       break
-               }
-        }
-    }*/
+  
 
     var str_words = palavra
     for(word in str_words){
@@ -119,27 +105,7 @@ fun main(){
                 break
             }
 
-            /*for(word in alt_list) {
-        println(word)
-    }*/
-
-            //pal[0] = pal[0].replace('a','o')
-            //println(pal[0])
-            //var vetor = mutableListOf<String>()
-            //println("Quantidade de letras distintas -> ${retornarQuantidadeDeLetrasDistintas(list)}")
-            /*for(word in list){
-        if(word != "/0" && word != "") {
-            vetor.add(word)
-            println(word + "-")
-        }
-    }*/
-            //println(vetor.toString())
-            //println(list.size)
-            //println(pal[0].contains('a'))
-            //println(pal[0].length)
-
-            //var str: String? = readLine()
-
+          
         }
     }catch(e: Exception){
         println(e)
