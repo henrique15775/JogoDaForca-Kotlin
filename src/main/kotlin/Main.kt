@@ -77,7 +77,7 @@ fun main(){
                     ) {
 //                    println("Palavra ...")
                         lista_descoberto.add(word.toString())
-                        println(lista_descoberto.toString())
+                        //println(lista_descoberto.toString())
                         acertou = true
                     } else {
                         acertou = false
