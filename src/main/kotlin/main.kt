@@ -80,9 +80,8 @@ fun main(){
                             word.toString().uppercase()
                         ) && lista_descoberto.contains(word.toString().uppercase()) == false
                     ) {
-//                    println("Palavra ...")
                         lista_descoberto.add(word.toString())
-                        println(lista_descoberto.toString())
+                        
                         acertou = true
                     } else {
                         acertou = false
